@@ -1,0 +1,295 @@
+﻿Build started 8/27/2017 2:04:25 AM.
+     1>Project "E:\CCE1\programming techniques\Phase2-Crd-Team26\Project Framework\PT-Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Actions\AddCircAction.cpp Actions\AddLineAction.cpp Actions\AddMoveAction.cpp Actions\AddRectAction.cpp Actions\AddResizeAction.cpp Actions\AddTriAction.cpp Actions\AddZoomAction.cpp Actions\SelectAction.cpp ChangeBkGrndColorAction.cpp ChangeBorderColorAction.cpp ChangeBorderWidthAction.cpp ChangeFillColorAction.cpp CMUgraphicsLib\auxil.cpp CMUgraphicsLib\CMUgraphics.cpp CMUgraphicsLib\image.cpp CMUgraphicsLib\keyqueue.cpp CMUgraphicsLib\mousequeue.cpp CMUgraphicsLib\windowinput.cpp CopyAction.cpp CutAction.cpp DeleteAction.cpp Figures\CCircle.cpp Figures\CFigure.cpp Figures\CLine.cpp Figures\CRectangle.cpp Figures\CTriangle.cpp GUI\Input.cpp GUI\Output.cpp ApplicationManager.cpp LoadAction.cpp main.cpp PasteAction.cpp PickAndHide.cpp RotateAction.cpp SaveAction.cpp ScrambleAndFind.cpp SendBackAndBringFront.cpp
+         SendBackAndBringFront.cpp
+         ScrambleAndFind.cpp
+         SaveAction.cpp
+         RotateAction.cpp
+         PickAndHide.cpp
+         PasteAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\pasteaction.cpp(15): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\pasteaction.cpp(16): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         main.cpp
+         LoadAction.cpp
+         ApplicationManager.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(519): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(523): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(528): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(647): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(666): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(690): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(710): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(1285): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Output.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(403): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(404): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(405): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(406): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(407): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(408): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(409): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(410): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(411): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(412): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(413): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(414): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\gui\output.cpp(560): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+         Input.cpp
+         CTriangle.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(62): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(102): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(103): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(104): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(105): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(109): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(110): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(111): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(112): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(113): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(114): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(126): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(127): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(128): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(129): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(130): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(131): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ctriangle.cpp(215): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         CRectangle.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(90): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(91): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(92): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(93): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(97): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(98): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(99): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(115): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(116): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(117): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(118): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(203): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         CLine.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(107): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(108): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(109): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(110): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(114): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(115): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(116): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(117): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(132): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(133): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(134): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(135): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(210): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         CFigure.cpp
+         CCircle.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(32): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(33): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(34): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(35): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(68): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(69): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(70): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(71): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(85): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(86): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(132): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(133): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(140): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(144): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(145): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(146): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(147): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(162): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         DeleteAction.cpp
+         CutAction.cpp
+         CopyAction.cpp
+         windowinput.cpp
+         Generating Code...
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\ccircle.cpp(112): warning C4715: 'CCircle::Paste' : not all control paths return a value
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\cline.cpp(153): warning C4715: 'CLine::Paste' : not all control paths return a value
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\figures\crectangle.cpp(135): warning C4715: 'CRectangle::Paste' : not all control paths return a value
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(584): warning C4715: 'ApplicationManager::setColor' : not all control paths return a value
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\applicationmanager.cpp(778): warning C4715: 'ApplicationManager::ChangeFillColor' : not all control paths return a value
+         Compiling...
+         mousequeue.cpp
+         keyqueue.cpp
+         image.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\image.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+         CMUgraphics.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(257): warning C4101: 'iY' : unreferenced local variable
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(257): warning C4101: 'iX' : unreferenced local variable
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(751): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(1164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(1171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(1202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(1210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\cmugraphics.cpp(1357): warning C4018: '>' : signed/unsigned mismatch
+         auxil.cpp
+         ChangeFillColorAction.cpp
+         ChangeBorderWidthAction.cpp
+         ChangeBorderColorAction.cpp
+         ChangeBkGrndColorAction.cpp
+         SelectAction.cpp
+         AddZoomAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addzoomaction.cpp(24): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         AddTriAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addtriaction.cpp(29): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addtriaction.cpp(30): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addtriaction.cpp(31): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addtriaction.cpp(32): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addtriaction.cpp(33): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addtriaction.cpp(34): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+         AddResizeAction.cpp
+         AddRectAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addrectaction.cpp(25): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addrectaction.cpp(26): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addrectaction.cpp(27): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addrectaction.cpp(28): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+         AddMoveAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addmoveaction.cpp(15): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addmoveaction.cpp(16): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         AddLineAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addlineaction.cpp(24): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addlineaction.cpp(25): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addlineaction.cpp(26): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addlineaction.cpp(27): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+         AddCircAction.cpp
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addcircaction.cpp(23): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addcircaction.cpp(24): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addcircaction.cpp(25): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addcircaction.cpp(26): warning C4244: '/=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\actions\addcircaction.cpp(62): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt CMUgraphicsLib\jpegload.c CMUgraphicsLib\jpeg\jcomapi.c CMUgraphicsLib\jpeg\jcparam.c CMUgraphicsLib\jpeg\jdapimin.c CMUgraphicsLib\jpeg\jdapistd.c CMUgraphicsLib\jpeg\jdatasrc.c CMUgraphicsLib\jpeg\jdcoefct.c CMUgraphicsLib\jpeg\jdcolor.c CMUgraphicsLib\jpeg\jddctmgr.c CMUgraphicsLib\jpeg\jdhuff.c CMUgraphicsLib\jpeg\jdinput.c CMUgraphicsLib\jpeg\jdmainct.c CMUgraphicsLib\jpeg\jdmarker.c CMUgraphicsLib\jpeg\jdmaster.c CMUgraphicsLib\jpeg\jdmerge.c CMUgraphicsLib\jpeg\jdphuff.c CMUgraphicsLib\jpeg\jdpostct.c CMUgraphicsLib\jpeg\jdsample.c CMUgraphicsLib\jpeg\jdtrans.c CMUgraphicsLib\jpeg\jerror.c CMUgraphicsLib\jpeg\jidctflt.c CMUgraphicsLib\jpeg\jidctfst.c CMUgraphicsLib\jpeg\jidctint.c CMUgraphicsLib\jpeg\jidctred.c CMUgraphicsLib\jpeg\jmemmgr.c CMUgraphicsLib\jpeg\jmemnobs.c CMUgraphicsLib\jpeg\jquant1.c CMUgraphicsLib\jpeg\jquant2.c CMUgraphicsLib\jpeg\jutils.c
+         jutils.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\jpeg\jmemmgr.c(1103): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\jpeg\jmemmgr.c(1106): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         jidctred.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jerror.c
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\jpeg\jerror.c(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\jpeg\jerror.c(175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdphuff.c
+         jdmerge.c
+         jdmaster.c
+         jdmarker.c
+         jdmainct.c
+         jdinput.c
+         jdhuff.c
+         Generating Code...
+         Compiling...
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdapistd.c
+         jdapimin.c
+         jcparam.c
+         jcomapi.c
+         jpegload.c
+     1>e:\cce1\programming techniques\phase2-crd-team26\project framework\cmugraphicslib\jpegload.c(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/PT Project.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/PT Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\PT Project.lib" /MACHINE:X86 /SAFESEH .\Debug/AddCircAction.obj
+         .\Debug/AddLineAction.obj
+         .\Debug/AddMoveAction.obj
+         .\Debug/AddRectAction.obj
+         .\Debug/AddResizeAction.obj
+         .\Debug/AddTriAction.obj
+         .\Debug/AddZoomAction.obj
+         .\Debug/SelectAction.obj
+         .\Debug/ChangeBkGrndColorAction.obj
+         .\Debug/ChangeBorderColorAction.obj
+         .\Debug/ChangeBorderWidthAction.obj
+         .\Debug/ChangeFillColorAction.obj
+         .\Debug/auxil.obj
+         .\Debug/CMUgraphics.obj
+         .\Debug/image.obj
+         .\Debug/jpegload.obj
+         .\Debug/keyqueue.obj
+         .\Debug/mousequeue.obj
+         .\Debug/windowinput.obj
+         .\Debug/jcomapi.obj
+         .\Debug/jcparam.obj
+         .\Debug/jdapimin.obj
+         .\Debug/jdapistd.obj
+         .\Debug/jdatasrc.obj
+         .\Debug/jdcoefct.obj
+         .\Debug/jdcolor.obj
+         .\Debug/jddctmgr.obj
+         .\Debug/jdhuff.obj
+         .\Debug/jdinput.obj
+         .\Debug/jdmainct.obj
+         .\Debug/jdmarker.obj
+         .\Debug/jdmaster.obj
+         .\Debug/jdmerge.obj
+         .\Debug/jdphuff.obj
+         .\Debug/jdpostct.obj
+         .\Debug/jdsample.obj
+         .\Debug/jdtrans.obj
+         .\Debug/jerror.obj
+         .\Debug/jidctflt.obj
+         .\Debug/jidctfst.obj
+         .\Debug/jidctint.obj
+         .\Debug/jidctred.obj
+         .\Debug/jmemmgr.obj
+         .\Debug/jmemnobs.obj
+         .\Debug/jquant1.obj
+         .\Debug/jquant2.obj
+         .\Debug/jutils.obj
+         .\Debug/CopyAction.obj
+         .\Debug/CutAction.obj
+         .\Debug/DeleteAction.obj
+         .\Debug/CCircle.obj
+         .\Debug/CFigure.obj
+         .\Debug/CLine.obj
+         .\Debug/CRectangle.obj
+         .\Debug/CTriangle.obj
+         .\Debug/Input.obj
+         .\Debug/Output.obj
+         .\Debug/ApplicationManager.obj
+         .\Debug/LoadAction.obj
+         .\Debug/main.obj
+         .\Debug/PasteAction.obj
+         .\Debug/PickAndHide.obj
+         .\Debug/RotateAction.obj
+         .\Debug/SaveAction.obj
+         .\Debug/ScrambleAndFind.obj
+         .\Debug/SendBackAndBringFront.obj
+     1>AddCircAction.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         PT-Project.vcxproj -> E:\CCE1\programming techniques\Phase2-Crd-Team26\Project Framework\.\Debug\PT Project.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug/PT Project.bsc" .\Debug\AddCircAction.sbr .\Debug\AddLineAction.sbr .\Debug\AddMoveAction.sbr .\Debug\AddRectAction.sbr .\Debug\AddResizeAction.sbr .\Debug\AddTriAction.sbr .\Debug\AddZoomAction.sbr .\Debug\SelectAction.sbr .\Debug\ChangeBkGrndColorAction.sbr .\Debug\ChangeBorderColorAction.sbr .\Debug\ChangeBorderWidthAction.sbr .\Debug\ChangeFillColorAction.sbr .\Debug\auxil.sbr .\Debug\CMUgraphics.sbr .\Debug\image.sbr .\Debug\jpegload.sbr .\Debug\keyqueue.sbr .\Debug\mousequeue.sbr .\Debug\windowinput.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdphuff.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jidctred.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr .\Debug\CopyAction.sbr .\Debug\CutAction.sbr .\Debug\DeleteAction.sbr .\Debug\CCircle.sbr .\Debug\CFigure.sbr .\Debug\CLine.sbr .\Debug\CRectangle.sbr .\Debug\CTriangle.sbr .\Debug\Input.sbr .\Debug\Output.sbr .\Debug\ApplicationManager.sbr .\Debug\LoadAction.sbr .\Debug\main.sbr .\Debug\PasteAction.sbr .\Debug\PickAndHide.sbr .\Debug\RotateAction.sbr .\Debug\SaveAction.sbr .\Debug\ScrambleAndFind.sbr .\Debug\SendBackAndBringFront.sbr
+     1>Done Building Project "E:\CCE1\programming techniques\Phase2-Crd-Team26\Project Framework\PT-Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:16.07
